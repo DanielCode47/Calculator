@@ -1,0 +1,17 @@
+D:\GitHub\New Repository\Calculator\Calculator\bin\Debug\net7.0-windows\Calculator.exe
+D:\GitHub\New Repository\Calculator\Calculator\bin\Debug\net7.0-windows\Calculator.deps.json
+D:\GitHub\New Repository\Calculator\Calculator\bin\Debug\net7.0-windows\Calculator.runtimeconfig.json
+D:\GitHub\New Repository\Calculator\Calculator\bin\Debug\net7.0-windows\Calculator.dll
+D:\GitHub\New Repository\Calculator\Calculator\bin\Debug\net7.0-windows\Calculator.pdb
+D:\GitHub\New Repository\Calculator\Calculator\obj\Debug\net7.0-windows\Calculator.csproj.AssemblyReference.cache
+D:\GitHub\New Repository\Calculator\Calculator\obj\Debug\net7.0-windows\Calculator.csproj.GenerateResource.cache
+D:\GitHub\New Repository\Calculator\Calculator\obj\Debug\net7.0-windows\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\New Repository\Calculator\Calculator\obj\Debug\net7.0-windows\Calculator.AssemblyInfoInputs.cache
+D:\GitHub\New Repository\Calculator\Calculator\obj\Debug\net7.0-windows\Calculator.AssemblyInfo.cs
+D:\GitHub\New Repository\Calculator\Calculator\obj\Debug\net7.0-windows\Calculator.csproj.CoreCompileInputs.cache
+D:\GitHub\New Repository\Calculator\Calculator\obj\Debug\net7.0-windows\Calculator.dll
+D:\GitHub\New Repository\Calculator\Calculator\obj\Debug\net7.0-windows\refint\Calculator.dll
+D:\GitHub\New Repository\Calculator\Calculator\obj\Debug\net7.0-windows\Calculator.pdb
+D:\GitHub\New Repository\Calculator\Calculator\obj\Debug\net7.0-windows\Calculator.genruntimeconfig.cache
+D:\GitHub\New Repository\Calculator\Calculator\obj\Debug\net7.0-windows\ref\Calculator.dll
+D:\GitHub\New Repository\Calculator\Calculator\obj\Debug\net7.0-windows\Calculator.Calculator.resources
