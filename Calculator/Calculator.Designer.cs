@@ -35,11 +35,11 @@
             ZeroBtn = new Button();
             DotBtn = new Button();
             TwoBtn = new Button();
-            FIveBtn = new Button();
-            EIghtBtn = new Button();
+            FiveBtn = new Button();
+            EightBtn = new Button();
             EqualBtn = new Button();
             ThreeBtn = new Button();
-            SIxBtn = new Button();
+            SixBtn = new Button();
             NineBtn = new Button();
             ModuleBtn = new Button();
             MultiplyBtn = new Button();
@@ -128,27 +128,28 @@
             TwoBtn.UseVisualStyleBackColor = true;
             TwoBtn.Click += TwoBtn_Click;
             // 
-            // FIveBtn
+            // FiveBtn
             // 
-            FIveBtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            FIveBtn.Location = new Point(105, 162);
-            FIveBtn.Name = "FIveBtn";
-            FIveBtn.Size = new Size(87, 84);
-            FIveBtn.TabIndex = 6;
-            FIveBtn.Text = "5";
-            FIveBtn.UseVisualStyleBackColor = true;
-            FIveBtn.Click += FIveBtn_Click;
+            FiveBtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            FiveBtn.Location = new Point(105, 162);
+            FiveBtn.Name = "FiveBtn";
+            FiveBtn.Size = new Size(87, 84);
+            FiveBtn.TabIndex = 6;
+            FiveBtn.Text = "5";
+            FiveBtn.UseVisualStyleBackColor = true;
+            FiveBtn.Click += FIveBtn_Click;
             // 
-            // EIghtBtn
+            // EightBtn
             // 
-            EIghtBtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            EIghtBtn.Location = new Point(105, 72);
-            EIghtBtn.Name = "EIghtBtn";
-            EIghtBtn.Size = new Size(87, 84);
-            EIghtBtn.TabIndex = 5;
-            EIghtBtn.Text = "8";
-            EIghtBtn.UseVisualStyleBackColor = true;
-            EIghtBtn.Click += EIghtBtn_Click;
+            EightBtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            EightBtn.Location = new Point(105, 72);
+            EightBtn.Name = "EightBtn";
+            EightBtn.Size = new Size(87, 84);
+            EightBtn.TabIndex = 5;
+            EightBtn.Text = "8";
+            EightBtn.UseVisualStyleBackColor = true;
+            EightBtn.Click += EIghtBtn_Click;
+            EightBtn.Resize += EightBtn_Resize;
             // 
             // EqualBtn
             // 
@@ -172,16 +173,16 @@
             ThreeBtn.UseVisualStyleBackColor = true;
             ThreeBtn.Click += ThreeBtn_Click;
             // 
-            // SIxBtn
+            // SixBtn
             // 
-            SIxBtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            SIxBtn.Location = new Point(198, 162);
-            SIxBtn.Name = "SIxBtn";
-            SIxBtn.Size = new Size(87, 84);
-            SIxBtn.TabIndex = 10;
-            SIxBtn.Text = "6";
-            SIxBtn.UseVisualStyleBackColor = true;
-            SIxBtn.Click += SIxBtn_Click;
+            SixBtn.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            SixBtn.Location = new Point(198, 162);
+            SixBtn.Name = "SixBtn";
+            SixBtn.Size = new Size(87, 84);
+            SixBtn.TabIndex = 10;
+            SixBtn.Text = "6";
+            SixBtn.UseVisualStyleBackColor = true;
+            SixBtn.Click += SIxBtn_Click;
             // 
             // NineBtn
             // 
@@ -285,12 +286,12 @@
             Controls.Add(PlusBtn);
             Controls.Add(EqualBtn);
             Controls.Add(ThreeBtn);
-            Controls.Add(SIxBtn);
+            Controls.Add(SixBtn);
             Controls.Add(NineBtn);
             Controls.Add(DotBtn);
             Controls.Add(TwoBtn);
-            Controls.Add(FIveBtn);
-            Controls.Add(EIghtBtn);
+            Controls.Add(FiveBtn);
+            Controls.Add(EightBtn);
             Controls.Add(ZeroBtn);
             Controls.Add(OneBtn);
             Controls.Add(FourBtn);
@@ -299,6 +300,7 @@
             Name = "Calculator";
             Text = "Calculator";
             Load += Calculator_Load;
+            Resize += Calculator_Resize;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -312,11 +314,11 @@
         private Button ZeroBtn;
         private Button DotBtn;
         private Button TwoBtn;
-        private Button FIveBtn;
-        private Button EIghtBtn;
+        private Button FiveBtn;
+        private Button EightBtn;
         private Button EqualBtn;
         private Button ThreeBtn;
-        private Button SIxBtn;
+        private Button SixBtn;
         private Button NineBtn;
         private Button ModuleBtn;
         private Button MultiplyBtn;

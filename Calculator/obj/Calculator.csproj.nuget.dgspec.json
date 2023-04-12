@@ -13,8 +13,12 @@
         "packagesPath": "C:\\Users\\Daniel's PC\\.nuget\\packages\\",
         "outputPath": "D:\\GitHub\\New Repository\\Calculator\\Calculator\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Visual Studio tools\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\Daniel's PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
